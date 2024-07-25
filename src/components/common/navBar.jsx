@@ -11,7 +11,7 @@ const NavBar = (props) => {
 			<div className="nav-container">
 				<nav className="navbar">
 					<div className="nav-background">
-						<ul className="nav-list">
+						<ul className="nav-list ml-4">
 							<li
 								className={
 									active === "home"
@@ -30,7 +30,7 @@ const NavBar = (props) => {
 							>
 								<Link to="/about">About</Link>
 							</li>
-							<li
+							{/* <li
 								className={
 									active === "projects"
 										? "nav-item active"
@@ -38,7 +38,7 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/projects">Projects</Link>
-							</li>
+							</li> */}
 							<li
 								className={
 									active === "articles"
@@ -46,9 +46,9 @@ const NavBar = (props) => {
 										: "nav-item"
 								}
 							>
-								<Link to="/articles">Articles</Link>
+								<Link to="/articles">Experience</Link>
 							</li>
-							<li
+							{/* <li
 								className={
 									active === "contact"
 										? "nav-item active"
@@ -56,7 +56,7 @@ const NavBar = (props) => {
 								}
 							>
 								<Link to="/contact">Contact</Link>
-							</li>
+							</li> */}
 						</ul>
 					</div>
 				</nav>
